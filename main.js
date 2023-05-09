@@ -1,5 +1,5 @@
-nose_x = -5 ;
-nose_y= -5 ;
+nose_x = 0 ;
+nose_y= 0 ;
 
 function preload() {
     clown_nose=loadImage('https://i.postimg.cc/CxspNTWN/580b57fbd9996e24bc43bed5.png');
@@ -35,7 +35,7 @@ function gotPoses(results) {
         console.log(results);
         console.log("nose_x = " +results[0].pose.nose.x);
         console.log("nose_y = " +results[0].pose.nose.y);
-        nose_x=results[0].pose.nose.x;
-        nose_y=results[0].pose.nose.y;
+        nose_x=results[0].pose.nose.x -5;
+        nose_y=results[0].pose.nose.y -5;
     }
 }
