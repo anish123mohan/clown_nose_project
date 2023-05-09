@@ -1,5 +1,5 @@
-nose_x = 0 ;
-nose_y= 0 ;
+nose_x = -5 ;
+nose_y= -5 ;
 
 function preload() {
     clown_nose=loadImage('https://i.postimg.cc/CxspNTWN/580b57fbd9996e24bc43bed5.png');
